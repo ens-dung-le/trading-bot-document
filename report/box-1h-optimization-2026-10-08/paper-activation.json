@@ -1,0 +1,59 @@
+{
+  "verifiedAt": "2026-10-08T06:50:00.787Z",
+  "runtime": {
+    "telegram_account_id": "1",
+    "active_symbol": "ETH/USDT:USDT",
+    "active_strategy_name": "box-strategy",
+    "active_strategy_version": 2,
+    "active_leverage": 5,
+    "engine_state": "running",
+    "active_strategy_parameters": {
+      "riskBudgetUsd": 25,
+      "exitExperiment": "box",
+      "paperPortfolio": {
+        "BTC/USDT:USDT": {
+          "riskBudgetUsd": 9.153595921954953,
+          "maximumNotionalUsd": 3661.438368781981,
+          "stopDistanceMultiplier": 1,
+          "maximumInitialMarginUsd": 549.2157553172971,
+          "takeProfitDistanceMultiplier": 1
+        },
+        "ETH/USDT:USDT": {
+          "riskBudgetUsd": 14.19808091570597,
+          "maximumNotionalUsd": 2839.616183141194,
+          "stopDistanceMultiplier": 1,
+          "maximumInitialMarginUsd": 425.9424274711791,
+          "takeProfitDistanceMultiplier": 1
+        },
+        "SOL/USDT:USDT": {
+          "riskBudgetUsd": 17.49472724038413,
+          "maximumNotionalUsd": 3498.9454480768254,
+          "stopDistanceMultiplier": 2,
+          "maximumInitialMarginUsd": 524.8418172115238,
+          "takeProfitDistanceMultiplier": 1.25
+        }
+      },
+      "defaultLeverage": 5,
+      "triggerTimeframe": "1h",
+      "maximumNotionalUsd": 10000,
+      "trailingStopEnabled": false,
+      "breakEvenStopEnabled": false,
+      "maximumMarginUsageRate": 0.3,
+      "stopDistanceMultiplier": 1,
+      "volatilityFilterEnabled": false,
+      "maximumHoldingCandleCount": 0,
+      "takeProfitDistanceMultiplier": 1
+    },
+    "updated_at": "2026-10-08T06:49:08.974Z"
+  },
+  "referenceCapital": 5000,
+  "preservedHistoricalNet": 0.188429987922,
+  "restoredPaperBalance": 5000.188429987922,
+  "closedCount": 1,
+  "otherOpenPositionUnchanged": true,
+  "openPositions": [],
+  "pendingOrders": [],
+  "testsPassed": 192,
+  "buildPassed": true,
+  "fundingIncludedInPaperLedger": false
+}

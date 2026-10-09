@@ -1,0 +1,154 @@
+================================================================
+BACKTEST SUMMARY
+================================================================
+Run label                     : box-strategy-ETHUSDTUSDT-20261007-025147684
+Strategy                      : box-strategy (version 1)
+Symbol                        : ETHUSDTM
+Trigger timeframe             : 15m
+Period                        : 2025-10-07 to 2026-10-07 (UTC)
+Warm-up bars skipped          : 288
+Source code revision          : 8a6cdb2
+---------------- COST AND LEVERAGE ASSUMPTIONS -----------------
+Taker fee rate                : 0.060 percent per side
+Maker fee rate                : 0.020 percent per side
+Half spread rate              : 0.010 percent
+Slippage                      : 1 tick per fill
+Execution latency             : 80 milliseconds
+Round trip cost               : 14.1 basis points at the average traded price
+Funding applied               : yes, from the recorded exchange funding history
+Leverage                      : 2
+Margin mode                   : isolated
+Position sizing               : fixed_fraction_of_starting_balance, 0.50 percent risk per trade
+Opposite signal policy        : close_only
+Break even stop               : disabled
+Trailing stop                 : disabled
+Legacy range-spike telemetry  : enabled, 96-bar median; observe at 4x and at least 1.00 percent; normalize below 2x for 12 bars; analytics only
+---------------------------- RESULT ----------------------------
+Starting balance              : 5000.00 USDT
+Ending balance                : 4516.15 USDT
+Net profit                    : -483.85 USDT  (-9.68 percent)
+Total fee paid                : 331.99 USDT
+Total slippage cost           : 57.76 USDT
+Total funding paid            : -0.55 USDT
+-------------------------- STATISTICS --------------------------
+Total trades                  : 83
+Censored open positions       : 1
+Winning trades                : 11  (13.25 percent)
+Losing trades                 : 72  (86.75 percent)
+Liquidated trades             : 0
+Average winning trade         : 118.84 USDT
+Average losing trade          : -24.88 USDT
+Profit factor                 : 0.73
+Payoff ratio                  : 4.78
+Expectancy per trade          : -5.83 USDT  (-17.5 basis points)
+Largest winning trade         : 319.26 USDT
+Largest losing trade          : -25.85 USDT
+Longest winning streak        : 2
+Longest losing streak         : 21
+------------------------ RISK MEASURES -------------------------
+Maximum drawdown              : -911.57 USDT  (-18.10 percent)
+Drawdown period               : 2025-10-08 to not recovered (363 days 5 hours 45 minutes)
+Time in market                : 12.30 percent
+Average holding time          : 12 hours 58 minutes
+Sharpe ratio                  : -0.66
+Sortino ratio                 : -1.04
+Calmar ratio                  : -0.53
+Exceptional-range periods     : 257
+Exceptional-range duration    : 82 days 23 hours 30 minutes
+Exceptional-range bars        : 7966
+Simulated drawdown, percentile 95: -19.97 percent
+Trade result test statistic   : -0.93
+------------------ GROSS VERSUS NET ANALYSIS -------------------
+Gross profit and loss         : -152.41 USDT
+Fee paid                      : -331.99 USDT
+Slippage cost                 : -57.76 USDT
+Funding paid                  : 0.55 USDT
+Closed trade net PnL          : -483.85 USDT
+Friction as share of gross    : 255.37 percent
+  losses in a row: 2          : 2 times
+  losses in a row: 3          : 0 times
+  losses in a row: 4 to 6     : 3 times
+  losses in a row: 7 or more  : 3 times
+------------------- MARKET REGIME CLASSIFIER -------------------
+Model version                 : market-regime-v3-gaussian-mtf-1h-4h
+Report format version         : 1
+Chart timeframe               : 15m
+Regime timeframes             : 4h structural anchor; 1h confirmation
+Direction model               : Gaussian(14, 4 poles, close); adaptive ATR(14) 0.8/2.5; ER(10, EMA 5); sideways ER <= 0.25 after 2 flat bars
+Volatility model              : 252 prior NATR samples; high p80, extreme p95
+Required classifier warm-up   : 266 closed bars per 1h/4h timeframe
+Reporting controls            : low confidence < 0.25; short period <= 2 bars; transition horizon 3 bars; 3 notable periods per tail
+------------------ REGIME CLASSIFIER QUALITY -------------------
+Classified coverage           : 100.00 percent (35040/35040 bars)
+Unclassified MTM PnL          : 0.00 USDT across 0 bars
+Regime periods                : 626
+Median period                 : 28.0 bars
+Median confirmation lag       : 2.0 bars
+Low-confidence market time    : 87.76 percent
+Short periods (<=2 bars)      : 0
+MTM reconciliation difference : 0.00000000 USDT
+---------- PERFORMANCE BY DIRECTION (MARK TO MARKET) -----------
+direction    periods        time    asset return  entries        MTM PnL     worst DD
+uptrend          163 24.99 percent  -47.96 percent       11        -309.49 -2.32 percent
+sideways         309 50.62 percent  +37.98 percent       40        -250.82 -2.96 percent
+downtrend        154 24.39 percent  -19.84 percent       32          76.46 -2.36 percent
+----------- DIRECTION BY VOLATILITY (MARK TO MARKET) -----------
+regime                       bars        time        MTM PnL       worst segment DD
+uptrend/normal               8131 23.20 percent        -360.48 -105.04 (-2.32 percent)
+uptrend/high                  340 0.97 percent          51.00 -20.48 (-0.44 percent)
+uptrend/extreme               284 0.81 percent           0.00    0.00 (0.00 percent)
+sideways/normal             15861 45.27 percent        -165.28 -132.48 (-2.96 percent)
+sideways/high                1428 4.08 percent         -63.44 -74.61 (-1.71 percent)
+sideways/extreme              448 1.28 percent         -22.10 -40.26 (-0.93 percent)
+downtrend/normal             5912 16.87 percent         159.13 -102.34 (-2.14 percent)
+downtrend/high               1128 3.22 percent          62.90 -79.65 (-1.84 percent)
+downtrend/extreme            1508 4.30 percent        -145.57 -99.89 (-2.36 percent)
+-------------------- NOTABLE REGIME PERIODS --------------------
+best 1   2026-03-21T23:45:00.000Z to 2026-03-23T17:30:00.000Z downtrend/normal, 168 bars, 1 entries, confidence 0.12, MTM 101.41 USDT
+best 2   2026-09-27T15:45:00.000Z to 2026-10-02T11:30:00.000Z sideways/normal, 464 bars, 0 entries, confidence 0.14, MTM 93.57 USDT
+best 3   2026-08-12T11:45:00.000Z to 2026-08-17T13:30:00.000Z sideways/normal, 488 bars, 1 entries, confidence 0.16, MTM 81.56 USDT
+worst 1  2026-10-05T23:45:00.000Z to 2026-10-06T23:45:00.000Z sideways/normal, 97 bars, 0 entries, confidence 0.23, MTM -102.63 USDT
+worst 2  2026-02-04T15:45:00.000Z to 2026-02-06T21:30:00.000Z downtrend/extreme, 216 bars, 4 entries, confidence 0.19, MTM -99.32 USDT
+worst 3  2026-10-02T11:45:00.000Z to 2026-10-02T15:30:00.000Z uptrend/normal, 16 bars, 0 entries, confidence 0.05, MTM -82.95 USDT
+-------------------- DIRECTION TRANSITIONS ---------------------
+Confirmed transitions         : 571
+First 3 bars MTM PnL          : -0.06 USDT average
+---------------- AUTOMATIC REGIME OBSERVATIONS -----------------
+  Entry expectancy was negative in uptrend/normal across 10 trades.
+  Entry expectancy was negative in sideways/normal across 36 trades.
+  Entry expectancy was negative in downtrend/extreme across 15 trades.
+  The largest direction-level MTM loss occurred in uptrend: -309.49 quote currency.
+---------- MAXIMUM FAVOURABLE EXCURSION DISTRIBUTION -----------
+Percentile 25                 : 0.16 percent
+Percentile 50 (median)        : 0.50 percent
+Percentile 75                 : 1.49 percent
+------------ MAXIMUM ADVERSE EXCURSION DISTRIBUTION ------------
+Percentile 25                 : 0.59 percent
+Percentile 50 (median)        : 0.91 percent
+Percentile 75                 : 1.45 percent
+----------------------- ACCEPTANCE GATE ------------------------
+FAIL  Net profit factor                        measured 0.7299, required greater than 1.5
+FAIL  Sharpe ratio                             measured -0.6627, required greater than 1.8
+FAIL  Maximum drawdown                         measured -0.1810, required smaller than 12.0 percent
+FAIL  Completed trades                         measured 83.0000, required at least 600
+FAIL  Expectancy per trade after costs         measured -5.8296, required greater than zero
+pass  Leverage                                 measured 2.0000, required between 2 and 5
+pass  Liquidated trades                        measured 0.0000, required at most 0
+Overall                       : FAIL
+--------------- READINGS THAT NEED A SECOND LOOK ---------------
+  Friction eats more than half of the gross profit, which means the strategy trades too often and needs tighter filters rather than tuned entries
+================================================================
+
+TECHNICAL AND RISK ANALYSIS
+Close: 2696.31  RSI(14): 48.68  ADX(14): 15.84
+MACD histogram: 0.76  ATR: 0.14%  Signals: none
+Market return: -42.44%  Annualised volatility: 62.34%  Market Sharpe: -0.57
+VaR 95/99 per candle: -0.55% / -0.78%  Market max drawdown: -68.07%
+OPTIMIZATION FOCUS
+- Improve entry selectivity or exit payoff before changing position size.
+- Reduce return variance with regime filters; do not optimize only for total profit.
+- Reduce position risk or leverage and review stop placement before tuning entry indicators.
+- Collect a larger sample before selecting parameters; the current ranking is unstable.
+- Improve edge after fees and slippage; increasing leverage cannot fix negative expectancy.
+- Fees, funding, and slippage consume more than half of gross profit; reduce trade frequency.
+The report was stored as backtest run 322 (box-strategy-ETHUSDTUSDT-20261007-025147684).

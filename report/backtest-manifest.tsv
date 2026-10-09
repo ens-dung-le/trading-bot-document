@@ -1,0 +1,70 @@
+strategy	symbol	timeframe	run_id	status	note
+anchored-vwap-daily-reclaim	BTC	15m	315	COMPLETED	
+anchored-vwap-daily-reclaim	ETH	15m	316	COMPLETED	
+anchored-vwap-daily-reclaim	SOL	15m	317	COMPLETED	
+breaker-block-retest	BTC	15m	318	COMPLETED	
+breaker-block-retest	ETH	15m	319	COMPLETED	
+breaker-block-retest	SOL	15m	320	COMPLETED	
+box-strategy	BTC	15m	321	COMPLETED	
+box-strategy	ETH	15m	322	COMPLETED	
+box-strategy	SOL	15m	323	COMPLETED	
+fair-value-gap-retest	BTC	15m	324	COMPLETED	
+fair-value-gap-retest	ETH	15m	325	COMPLETED	
+fair-value-gap-retest	SOL	15m	326	COMPLETED	
+fibonacci-sequence-swing	BTC	15m	327	COMPLETED	
+fibonacci-sequence-swing	ETH	15m	328	COMPLETED	
+fibonacci-sequence-swing	SOL	15m	329	COMPLETED	
+fibonacci-sequence-swing-v2	BTC	15m	330	COMPLETED	
+fibonacci-sequence-swing-v2	ETH	15m	331	COMPLETED	
+fibonacci-sequence-swing-v2	SOL	15m	332	COMPLETED	
+five-gate-directional	BTC	1m	333	COMPLETED	
+five-gate-directional	ETH	1m	334	COMPLETED	
+five-gate-directional	SOL	1m	335	COMPLETED	
+fvg-quality-retest	BTC	15m	336	COMPLETED	
+fvg-quality-retest	ETH	15m	337	COMPLETED	
+fvg-quality-retest	SOL	15m	338	COMPLETED	
+ict-suspension-block-retest	BTC	15m	339	COMPLETED	
+ict-suspension-block-retest	ETH	15m	340	COMPLETED	
+ict-suspension-block-retest	SOL	15m	341	COMPLETED	
+london-open-sweep-reversal	BTC	15m	342	COMPLETED	
+london-open-sweep-reversal	ETH	15m	343	COMPLETED	
+london-open-sweep-reversal	SOL	15m	344	COMPLETED	
+london-open-liquidity-macro-v2	BTC	5m	345	COMPLETED	
+london-open-liquidity-macro-v2	ETH	5m	346	COMPLETED	
+london-open-liquidity-macro-v2	SOL	5m	347	COMPLETED	
+london-open-liquidity-macro-v3	BTC	5m	348	COMPLETED	Empty recorded-news snapshot; New York news branch not validated
+london-open-liquidity-macro-v3	ETH	5m	349	COMPLETED	Empty recorded-news snapshot; New York news branch not validated
+london-open-liquidity-macro-v3	SOL	5m	350	COMPLETED	Empty recorded-news snapshot; New York news branch not validated
+multi-ma-quantum	BTC	15m	351	COMPLETED	
+multi-ma-quantum	ETH	15m	352	COMPLETED	
+multi-ma-quantum	SOL	15m	353	COMPLETED	
+multi-indicator-directional	BTC	1h	354	COMPLETED	
+multi-indicator-directional	ETH	1h	355	COMPLETED	
+multi-indicator-directional	SOL	1h	356	COMPLETED	
+triple-sma-directional	BTC	5m	357	COMPLETED	
+triple-sma-directional	ETH	5m	358	COMPLETED	
+triple-sma-directional	SOL	5m	359	COMPLETED	
+vwap-divergence-directional	BTC	5m	360	COMPLETED	defaults
+vwap-divergence-directional	ETH	5m	361	COMPLETED	defaults
+vwap-divergence-directional	SOL	5m	362	COMPLETED	defaults
+nadaraya-band-mean-reversion	BTC	5m	363	COMPLETED	defaults
+nadaraya-band-mean-reversion	ETH	5m	364	COMPLETED	defaults
+nadaraya-band-mean-reversion	SOL	5m	365	COMPLETED	defaults
+order-block-retest	BTC	15m	366	COMPLETED	defaults
+order-block-retest	ETH	15m	367	COMPLETED	defaults
+order-block-retest	SOL	15m	368	COMPLETED	defaults
+support-resistance-break-retest	BTC	15m	369	COMPLETED	defaults
+support-resistance-break-retest	ETH	15m	370	COMPLETED	defaults
+support-resistance-break-retest	SOL	15m	371	COMPLETED	defaults
+wick-body-ratio-trend-forecast	BTC	15m	372	COMPLETED	defaults
+wick-body-ratio-trend-forecast	ETH	15m	373	COMPLETED	defaults
+wick-body-ratio-trend-forecast	SOL	15m	374	COMPLETED	defaults
+dca-stop-straddle	BTC	1m	375	COMPLETED	defaults
+dca-stop-straddle	ETH	1m	376	COMPLETED	defaults
+dca-stop-straddle	SOL	1m	377	COMPLETED	defaults
+trailing-geometric-grid	BTC	1m	378	COMPLETED	defaults
+trailing-geometric-grid	ETH	1m	379	COMPLETED	defaults
+trailing-geometric-grid	SOL	1m	380	COMPLETED	defaults
+grid-amount-scaler	BTC	1m	381	COMPLETED	defaults
+grid-amount-scaler	ETH	1m	382	COMPLETED	defaults
+grid-amount-scaler	SOL	1m	383	COMPLETED	defaults

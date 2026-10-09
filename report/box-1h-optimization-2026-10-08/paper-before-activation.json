@@ -1,0 +1,45 @@
+{
+  "savedAt": "2026-10-08T06:48:42.535Z",
+  "previousImage": "sha256:5a0eb27f4897031208e571c2073f5013aae87a5a073cfac6aa60a3d75da2946f",
+  "runtime": [
+    {
+      "telegram_account_id": "1",
+      "active_symbol": "ETH/USDT:USDT",
+      "active_strategy_name": "scalping-lower-wick-reclaim-v1",
+      "active_strategy_version": 1,
+      "active_strategy_parameters": {
+        "defaultSymbol": "ETH/USDT:USDT",
+        "defaultLeverage": 10,
+        "initialMarginUsd": 50,
+        "triggerTimeframe": "1m",
+        "trailingStopEnabled": false,
+        "breakEvenStopEnabled": false,
+        "volatilityFilterEnabled": false,
+        "maximumHoldingCandleCount": 60
+      },
+      "active_leverage": 10,
+      "engine_state": "running",
+      "version": 86,
+      "updated_by_user_id": "1143861874",
+      "updated_at": "2026-10-07T06:49:06.539Z"
+    }
+  ],
+  "profile": [
+    {
+      "id": "1",
+      "paper_starting_balance": "5000.000000000000",
+      "paper_leverage": 1,
+      "paper_exchange_name": "kucoinfutures"
+    }
+  ],
+  "otherOpenPositions": [
+    {
+      "id": "96",
+      "symbol_id": 1,
+      "entry_quantity": "0.001000000000",
+      "stop_loss_price": "83659.700000000000",
+      "take_profit_price": "80727.300000000000",
+      "opened_at": "2026-10-08T04:45:03.230Z"
+    }
+  ]
+}

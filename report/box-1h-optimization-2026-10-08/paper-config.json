@@ -1,0 +1,38 @@
+{
+  "triggerTimeframe": "1h",
+  "paperTradingEnabled": true,
+  "defaultLeverage": 5,
+  "maximumMarginUsageRate": 0.3,
+  "stopDistanceMultiplier": 1,
+  "takeProfitDistanceMultiplier": 1,
+  "riskBudgetUsd": 25,
+  "maximumNotionalUsd": 10000,
+  "exitExperiment": "box",
+  "maximumHoldingCandleCount": 0,
+  "trailingStopEnabled": false,
+  "breakEvenStopEnabled": false,
+  "volatilityFilterEnabled": false,
+  "paperPortfolio": {
+    "BTC/USDT:USDT": {
+      "riskBudgetUsd": 9.153595921954953,
+      "maximumNotionalUsd": 3661.438368781981,
+      "maximumInitialMarginUsd": 549.2157553172971,
+      "stopDistanceMultiplier": 1,
+      "takeProfitDistanceMultiplier": 1
+    },
+    "ETH/USDT:USDT": {
+      "riskBudgetUsd": 14.19808091570597,
+      "maximumNotionalUsd": 2839.616183141194,
+      "maximumInitialMarginUsd": 425.9424274711791,
+      "stopDistanceMultiplier": 1,
+      "takeProfitDistanceMultiplier": 1
+    },
+    "SOL/USDT:USDT": {
+      "riskBudgetUsd": 17.49472724038413,
+      "maximumNotionalUsd": 3498.9454480768254,
+      "maximumInitialMarginUsd": 524.8418172115238,
+      "stopDistanceMultiplier": 2,
+      "takeProfitDistanceMultiplier": 1.25
+    }
+  }
+}
